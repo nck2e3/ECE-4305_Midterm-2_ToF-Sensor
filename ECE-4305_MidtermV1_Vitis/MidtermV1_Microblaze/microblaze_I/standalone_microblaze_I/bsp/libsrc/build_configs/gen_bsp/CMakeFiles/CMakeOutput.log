@@ -1,0 +1,300 @@
+The target system is: Generic -  - microblaze
+The host system is: Linux - 6.8.0-48-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-gcc 
+Build flags: ;-O2;-mlittle-endian;-mno-xl-reorder;-mxl-soft-mul;-mcpu=v11.0;-DSDT;;-MMD;-MP;-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec;-I/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.d"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-g++ 
+Build flags: ;-O2;-mlittle-endian;-mno-xl-reorder;-mxl-soft-mul;-mcpu=v11.0;-DSDT;;-MMD;-MP;-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec;-I/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.d"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fba21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fba21.dir/build.make CMakeFiles/cmTC_fba21.dir/build
+gmake[1]: Entering directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj
+/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-gcc   -O2 -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec -I/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include    -v -o CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj -c /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+Reading specs from /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec
+COLLECT_GCC=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-gcc.real
+Target: microblaze-xilinx-elf
+Configured with: ../../../../../../work-shared/gcc-12.2.0-r0/gcc-12.2.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=microblaze-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/microblaze-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=microblaze-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/12.2.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot-native/usr/microblaze-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-multilib --disable-initfini_array --disable-__cxa_atexit --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --without-long-double-128 --disable-tm-clone-registry --with-sysroot=/not/exist
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fba21.dir/'
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/cc1 -quiet -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -imultilib le -iprefix /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/ -isysroot /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf -MMD CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.d -MP -MQ CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj -D SDT /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fba21.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -O2 -version -o /tmp/ccsWX3e2.s
+GNU C17 (GCC) version 12.2.0 (microblaze-xilinx-elf)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"
+ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include"
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/include"
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/local/include"
+ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed"
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/
+End of search list.
+GNU C17 (GCC) version 12.2.0 (microblaze-xilinx-elf)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 21d24a90aa54dfb8445eaa8c0ece7df0
+COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fba21.dir/'
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/as -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -EL -o CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj /tmp/ccsWX3e2.s
+GNU assembler version 2.39.0 (microblaze-xilinx-elf) using BFD version (GNU Binutils) 2.39.0.20220819
+COMPILER_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/
+LIBRARY_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/le/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.'
+Linking C static library libcmTC_fba21.a
+/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -P CMakeFiles/cmTC_fba21.dir/cmake_clean_target.cmake
+/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba21.dir/link.txt --verbose=1
+mb-ar qc libcmTC_fba21.a CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj
+/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-ranlib libcmTC_fba21.a
+gmake[1]: Leaving directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/]
+  end of search list found
+  collapse include dir [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include] ==> [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include]
+  implicit include dirs: [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mb-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fba21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fba21.dir/build.make CMakeFiles/cmTC_fba21.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-gcc   -O2 -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec -I/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include    -v -o CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj -c /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec]
+  ignore line: [COLLECT_GCC=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-gcc.real]
+  ignore line: [Target: microblaze-xilinx-elf]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-12.2.0-r0/gcc-12.2.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=microblaze-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/microblaze-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=microblaze-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/12.2.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot-native/usr/microblaze-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-multilib --disable-initfini_array --disable-__cxa_atexit --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --without-long-double-128 --disable-tm-clone-registry --with-sysroot=/not/exist]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fba21.dir/']
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/cc1 -quiet -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -imultilib le -iprefix /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/ -isysroot /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf -MMD CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.d -MP -MQ CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj -D SDT /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fba21.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -O2 -version -o /tmp/ccsWX3e2.s]
+  ignore line: [GNU C17 (GCC) version 12.2.0 (microblaze-xilinx-elf)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"]
+  ignore line: [ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.0 (microblaze-xilinx-elf)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 21d24a90aa54dfb8445eaa8c0ece7df0]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fba21.dir/']
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/as -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -EL -o CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj /tmp/ccsWX3e2.s]
+  ignore line: [GNU assembler version 2.39.0 (microblaze-xilinx-elf) using BFD version (GNU Binutils) 2.39.0.20220819]
+  ignore line: [COMPILER_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/]
+  ignore line: [LIBRARY_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/le/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_fba21.a]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -P CMakeFiles/cmTC_fba21.dir/cmake_clean_target.cmake]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba21.dir/link.txt --verbose=1]
+  ignore line: [mb-ar qc libcmTC_fba21.a CMakeFiles/cmTC_fba21.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-ranlib libcmTC_fba21.a]
+  ignore line: [gmake[1]: Leaving directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dffee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dffee.dir/build.make CMakeFiles/cmTC_dffee.dir/build
+gmake[1]: Entering directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj
+/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-g++   -O2 -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec -I/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include    -v -o CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj -c /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+Reading specs from /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec
+COLLECT_GCC=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-g++.real
+Target: microblaze-xilinx-elf
+Configured with: ../../../../../../work-shared/gcc-12.2.0-r0/gcc-12.2.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=microblaze-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/microblaze-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=microblaze-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/12.2.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot-native/usr/microblaze-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-multilib --disable-initfini_array --disable-__cxa_atexit --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --without-long-double-128 --disable-tm-clone-registry --with-sysroot=/not/exist
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_dffee.dir/'
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/cc1plus -quiet -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -imultilib le -iprefix /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/ -isysroot /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf -MMD CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.d -MP -MQ CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj -D SDT /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dffee.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -O2 -version -o /tmp/ccp2bEoN.s
+GNU C++17 (GCC) version 12.2.0 (microblaze-xilinx-elf)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"
+ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include"
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/include"
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/local/include"
+ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed"
+ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/
+End of search list.
+GNU C++17 (GCC) version 12.2.0 (microblaze-xilinx-elf)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a5dfe940c220d25b0ab17fda8be1b922
+COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_dffee.dir/'
+ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/as -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -EL -o CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccp2bEoN.s
+GNU assembler version 2.39.0 (microblaze-xilinx-elf) using BFD version (GNU Binutils) 2.39.0.20220819
+COMPILER_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/
+LIBRARY_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/le/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_dffee.a
+/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -P CMakeFiles/cmTC_dffee.dir/cmake_clean_target.cmake
+/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dffee.dir/link.txt --verbose=1
+mb-ar qc libcmTC_dffee.a CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj
+/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-ranlib libcmTC_dffee.a
+gmake[1]: Leaving directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward]
+    add: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/]
+  end of search list found
+  collapse include dir [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include] ==> [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include/c++/12.2.0]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward]
+  collapse include dir [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/] ==> [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include]
+  implicit include dirs: [/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include/c++/12.2.0;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward;/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mb-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dffee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dffee.dir/build.make CMakeFiles/cmTC_dffee.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-g++   -O2 -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec -I/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include    -v -o CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj -c /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec]
+  ignore line: [COLLECT_GCC=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-g++.real]
+  ignore line: [Target: microblaze-xilinx-elf]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-12.2.0-r0/gcc-12.2.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=microblaze-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/microblaze-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=microblaze-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/12.2.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot-native/usr/microblaze-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.1_toolchain-34_Standalone_microblaze-tc/build/microblaze-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-microblaze/12.2.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-multilib --disable-initfini_array --disable-__cxa_atexit --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --without-long-double-128 --disable-tm-clone-registry --with-sysroot=/not/exist]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_dffee.dir/']
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/cc1plus -quiet -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -imultilib le -iprefix /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/ -isysroot /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf -MMD CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.d -MP -MQ CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj -D SDT /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dffee.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mno-xl-reorder -mxl-soft-mul -mcpu=v11.0 -O2 -version -o /tmp/ccp2bEoN.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (microblaze-xilinx-elf)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"]
+  ignore line: [ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/../../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/../../../../../microblaze-xilinx-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/include-fixed]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/microblaze-xilinx-elf/le]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/c++/12.2.0/backward]
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (microblaze-xilinx-elf)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a5dfe940c220d25b0ab17fda8be1b922]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_dffee.dir/']
+  ignore line: [ /tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/as -v -I /home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include -EL -o CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccp2bEoN.s]
+  ignore line: [GNU assembler version 2.39.0 (microblaze-xilinx-elf) using BFD version (GNU Binutils) 2.39.0.20220819]
+  ignore line: [COMPILER_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/]
+  ignore line: [LIBRARY_PATH=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/le/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/../../lib/microblaze-xilinx-elf/gcc/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/microblaze-xilinx-elf/12.2.0/:/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/../microblazeeb-xilinx-elf' '-O2' '-mlittle-endian' '-mno-xl-reorder' '-mxl-soft-mul' '-mcpu=v11.0' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/Xilinx.spec' '-I' '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_dffee.a]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -P CMakeFiles/cmTC_dffee.dir/cmake_clean_target.cmake]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dffee.dir/link.txt --verbose=1]
+  ignore line: [mb-ar qc libcmTC_dffee.a CMakeFiles/cmTC_dffee.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/tools/Xilinx/Vitis/2024.1/gnu/microblaze/lin/bin/mb-ranlib libcmTC_dffee.a]
+  ignore line: [gmake[1]: Leaving directory '/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+microblaze-xilinx-elf-gcc.real (GCC) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

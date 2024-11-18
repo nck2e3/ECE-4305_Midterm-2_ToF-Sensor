@@ -1,0 +1,37 @@
+{
+  "name": "MidtermV1_Microblaze",
+  "type": "PLATFORM",
+  "configuration": {
+    "description": "",
+    "xsa": "/home/noah/Projects/MidtermV1/mcs_top_sampler.xsa",
+    "xsaPathInPlatform": "MidtermV1_Microblaze/hw/mcs_top_sampler.xsa",
+    "emulationXsa": "",
+    "emulationXsaPathInPlatform": "",
+    "isCustomFSBL": false,
+    "fsblPath": "",
+    "pmufwElf": "",
+    "flow": "EMBEDDED",
+    "processorsMap": {
+      "microblaze_I": "microblaze"
+    },
+    "supportedFamily": "fpga",
+    "componentType": "PLATFORM",
+    "domains": [
+      {
+        "name": "standalone_microblaze_I",
+        "displayName": "standalone_microblaze_I",
+        "processor": "microblaze_I",
+        "cpuType": "microblaze",
+        "cpuInstance": "microblaze_I",
+        "os": "standalone",
+        "appTemplate": "empty_application",
+        "isBootDomain": false,
+        "qemuData": "",
+        "qemuArgsFile": "",
+        "pmcQemuArgsFile": "",
+        "isBSPGenReq": false
+      }
+    ],
+    "emptyToolchainConfiguration": []
+  }
+}

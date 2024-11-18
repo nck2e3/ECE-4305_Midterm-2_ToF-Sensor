@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+// Vivado v2024.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+// Created on Sunday November 17, 2024 - 12:35:35 am, from:
+//
+//     Map file     - /home/noah/Projects/MidtermV1/MidtermV1.gen/sources_1/ip/cpu/bd_0/bd_3914.bmm
+//     Data file(s) - /home/noah/Projects/MidtermV1/MidtermV1.gen/sources_1/ip/cpu/bd_0/ip/ip_0/data/mb_bootloop_le.elf
+//
+// Address space 'cpu_unit_inst_microblaze_I.cpu_unit_inst_lmb_bram_I_128K_1_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

@@ -1,0 +1,36 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "tcf-debug",
+			"request": "launch",
+			"name": "ECE-4305_MidtermV1_Application_app_hw_1",
+			"debugType": "baremetal-fpga",
+			"attachToRunningTargetOptions": {
+				"targetSetupMode": "standalone",
+				"executeScript": true,
+				"scriptPath": ""
+			},
+			"autoAttachProcessChildren": false,
+			"target": {
+				"targetConnectionId": "Local",
+				"peersIniPath": "../../../.wsdata/.peers.ini",
+				"context": "fpga"
+			},
+			"targetSetup": {
+				"resetSystem": true,
+				"programDevice": true,
+				"bitstreamFile": "${workspaceFolder}/MidtermV1_Microblaze/hw/sdt/mcs_top_sampler.bit",
+				"downloadElf": [
+					{
+						"core": "microblaze_I",
+						"resetProcessor": true,
+						"elfFile": "${workspaceFolder}/ECE-4305_MidtermV1_Application/build/ECE-4305_MidtermV1_Application.elf",
+						"stopAtEntry": false
+					}
+				]
+			},
+			"internalConsoleOptions": "openOnSessionStart"
+		}
+	]
+}

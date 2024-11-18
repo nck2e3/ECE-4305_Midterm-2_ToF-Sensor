@@ -1,0 +1,10 @@
+verilog xil_defaultlib  \
+"../../../../MidtermV1.gen/sources_1/ip/cpu/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" \
+"../../../../MidtermV1.gen/sources_1/ip/cpu/bd_0/ip/ip_8/sim/bd_3914_xlconcat_0_0.v" \
+"../../../../MidtermV1.gen/sources_1/ip/cpu/bd_0/sim/bd_3914.v" \
+"../../../../MidtermV1.gen/sources_1/ip/cpu/sim/cpu.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

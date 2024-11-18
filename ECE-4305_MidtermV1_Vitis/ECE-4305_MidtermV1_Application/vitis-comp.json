@@ -1,0 +1,15 @@
+{
+  "name": "ECE-4305_MidtermV1_Application",
+  "type": "HOST",
+  "platform": "/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/export/MidtermV1_Microblaze/MidtermV1_Microblaze.xpfm",
+  "domain": "standalone_microblaze_I",
+  "cpuInstance": "microblaze_I",
+  "cpuType": "microblaze",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "standalone_microblaze_I",
+  "applicationFlow": "EMBEDDED"
+}

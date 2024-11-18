@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov 18 08:53:29 2024
+# Process ID: 851278
+# Current directory: /home/noah/Projects/MidtermV1/MidtermV1.runs/impl_1
+# Command line: vivado -log mcs_top_sampler.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mcs_top_sampler.tcl -notrace
+# Log file: /home/noah/Projects/MidtermV1/MidtermV1.runs/impl_1/mcs_top_sampler.vdi
+# Journal file: /home/noah/Projects/MidtermV1/MidtermV1.runs/impl_1/vivado.jou
+# Running On        :bazaar
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :AMD Ryzen 7 3800X 8-Core Processor
+# CPU Frequency     :2147.835 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :50391 MB
+# Swap memory       :2051 MB
+# Total Virtual     :52442 MB
+# Available Virtual :19774 MB
+#-----------------------------------------------------------
+source mcs_top_sampler.tcl -notrace

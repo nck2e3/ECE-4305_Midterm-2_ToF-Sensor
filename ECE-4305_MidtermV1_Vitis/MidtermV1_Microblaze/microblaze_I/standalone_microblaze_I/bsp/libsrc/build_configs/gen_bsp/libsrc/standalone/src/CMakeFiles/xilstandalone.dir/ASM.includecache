@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/include/xparameters.h
+
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/hw_exception_handler.S
+microblaze_exceptions_g.h
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/microblaze_exceptions_g.h
+bspconfig.h
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/bspconfig.h
+xparameters.h
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/xparameters.h
+microblaze_instructions.h
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/microblaze_instructions.h
+
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/microblaze_exceptions_g.h
+
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/microblaze_instructions.h
+
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/microblaze_scrub.S
+bspconfig.h
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/bspconfig.h
+xparameters.h
+/home/noah/Projects/ECE-4305_MidtermV1_Vitis/MidtermV1_Microblaze/microblaze_I/standalone_microblaze_I/bsp/libsrc/standalone/src/microblaze/xparameters.h
+
+include/bspconfig.h
+xmem_config.h
+include/xmem_config.h
+
+include/xmem_config.h
+

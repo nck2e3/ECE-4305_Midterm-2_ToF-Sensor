@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1731950797" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mcs_top_sampler.dcp">
+  <File Type="VDS-TIMING-PB" Name="mcs_top_sampler_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="mcs_top_sampler_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="mcs_top_sampler.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="mcs_top_sampler_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="mcs_top_sampler_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="mcs_top_sampler_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="mcs_top_sampler.vds"/>
+  <File Type="REPORTS-TCL" Name="mcs_top_sampler_reports.tcl"/>
+  <File Type="PA-TCL" Name="mcs_top_sampler.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/cpu/cpu.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/adsr.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/adsr.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/uart/baud_gen.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/uart/baud_gen.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_adsr_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_adsr_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_ddfs_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_ddfs_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_debounce_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_debounce_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_gpi.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_gpi.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_gpo.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_gpo.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_i2c_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_i2c_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_io_pwm_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_io_pwm_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_led_mux_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_led_mux_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_mcs_bridge.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_mcs_bridge.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_mmio_controller.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_mmio_controller.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_ps2_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_ps2_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_spi_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_spi_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_timer.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_timer.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/uart/chu_uart.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/uart/chu_uart.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_xadc_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_xadc_core.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/ddfs.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/ddfs.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/debounce_counter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/debounce_counter.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/debounce_fsm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/debounce_fsm.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/ds_1bit_dac.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/ds_1bit_dac.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/fifo/fifo.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/fifo/fifo.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/fifo/fifo_ctrl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/fifo/fifo_ctrl.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/i2c_master.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/i2c_master.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/led_mux8.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/led_mux8.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/chu_io_map.svh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/chu_io_map.svh"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/mmio_sys_sampler.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/mmio_sys_sampler.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/ps2_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/ps2_top.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/ps2rx.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/ps2rx.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/ps2tx.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/ps2tx.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/fifo/reg_file.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/fifo/reg_file.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/sin_rom.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/sin_rom.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/spi.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/spi.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/uart/uart.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/uart/uart.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/uart/uart_rx.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/uart/uart_rx.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/uart/uart_tx.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/uart/uart_tx.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/xadc_fpro.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/xadc_fpro.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL/mcs_top_sampler.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/HDL/mcs_top_sampler.sv"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mcs_top_sampler"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/M8 to M 13 - Sampler System/Nexys4_DDR_chu.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ece_4305-main/M8 to M 13 - Sampler System/Nexys4_DDR_chu.xdc"/>
+        <Attr Name="ImportTime" Val="1636268542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/mcs_top_sampler.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
